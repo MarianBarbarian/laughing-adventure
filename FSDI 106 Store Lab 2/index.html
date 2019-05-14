@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:400,700" rel="stylesheet">
+    <title>Unit 106 Lab 2</title>
+    <!-- link styles-->
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">Store</a>
+    </nav>
+
+        <div class="container-fluid">
+
+            <!-- search panel-->
+            <div class="row">
+
+            <div class="col-md-4"></div>
+            <div class="col-md-4 search-container">
+                <label>Filter catalog</label>
+                <input id="txtSearch" placeholder="Search by text" type="text">
+                <button class="btn btn-sm btn-primary" id="btnSearch">Search</button>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+
+
+    <div class="row">
+        <div class="col-md-9" id="catalog">
+        </div>
+
+        <!-- Categories -->
+        <div class="col-md-3" class="Categories">
+            <h4>Categories</h4>
+            <ul id="catList" class="list-group">
+
+            </ul>
+
+            <label>Items</label>
+            <input id="txtCartItems" type="text">
+            <br>
+
+            <label>Total</label>
+            <input id="txtCartTotal" type="text">
+            <br>
+
+            <button class="btn btn-primary">Save Order</button>
+        </div>
+
+    </div>
+
+    <form>
+        <input type="submit" value="send">
+    </form>
+    </div>
+
+
+    <script src="jquery-3.4.1.js"></script>
+    <script src="bootstrap.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

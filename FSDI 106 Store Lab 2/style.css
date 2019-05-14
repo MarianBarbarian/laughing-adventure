@@ -1,0 +1,51 @@
+body{
+    font-family: 'Josefin Slab', serif;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+.item{
+    display: inline-block;
+    width: 220px;
+    height: 320px;
+    background-color: #ffffff;
+    border: 1px solid #4b4747;
+    margin: 5px;
+    padding: 5px;
+    vertical-align: top;
+}
+
+.item img{
+    width: 200px;
+    height: 160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item h5{
+    font-weight: bold;
+    color: #170538;
+}
+
+.item h6{
+    font-size:16px;
+    color: #000000;
+}
+
+.item h6, .item button{
+    display:inline-block;
+}
+
+.item button{
+    float:right;
+}
+
+.search-container{
+    background-color: #b4b9d1;
+    padding-top: 10px;
+    padding-bottom: 10px;  
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
